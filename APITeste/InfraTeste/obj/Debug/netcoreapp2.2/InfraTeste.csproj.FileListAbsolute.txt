@@ -1,0 +1,6 @@
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\bin\Debug\netcoreapp2.2\InfraTeste.deps.json
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\bin\Debug\netcoreapp2.2\InfraTeste.dll
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.csproj.CoreCompileInputs.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.AssemblyInfoInputs.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.AssemblyInfo.cs
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.csprojAssemblyReference.cache

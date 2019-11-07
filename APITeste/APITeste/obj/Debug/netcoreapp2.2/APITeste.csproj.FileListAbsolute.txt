@@ -1,0 +1,14 @@
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.deps.json
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.runtimeconfig.json
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.runtimeconfig.dev.json
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.dll
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.pdb
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.csprojAssemblyReference.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.csproj.CoreCompileInputs.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorAssemblyInfo.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorAssemblyInfo.cs
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.AssemblyInfoInputs.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.AssemblyInfo.cs
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorTargetAssemblyInfo.cache
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.dll
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.pdb
