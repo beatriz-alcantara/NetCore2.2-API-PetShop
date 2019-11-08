@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APITeste</name>
+    </assembly>
+    <members>
+        <member name="M:APITeste.Controllers.ClienteController.Get(InfraTeste.Models.Cliente)">
+            <summary>
+             Listar Clientes
+            </summary>
+            <remarks> Informe um dos dados do cliente que você quer buscar </remarks>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

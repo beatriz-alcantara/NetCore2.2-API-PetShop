@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APITeste</name>
+    </assembly>
+    <members>
+        <member name="M:APITeste.Controllers.ClienteController.Get(InfraTeste.Models.Cliente)">
+            <summary>
+             Listar Clientes
+            </summary>
+            <remarks> Informe um dos dados do cliente que você quer buscar </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.LojaController.Get(InfraTeste.Models.Loja)">
+            <summary>
+             Listar Lojas
+            </summary>
+            <remarks> Informe um dos dados do Loja que você quer buscar </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.LojaController.Post(InfraTeste.Models.Loja)">
+            <summary>
+             Cadastrar Loja
+            </summary>
+            <remarks> Informe o nome da loja que você quer cadastrar </remarks>
+            <param name="vm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.LojaController.Put(InfraTeste.Models.Loja)">
+            <summary>
+            Atualize uma Loja
+            </summary>
+            <remarks> Digite o nome e o id que você quer atualizar </remarks>
+            <param name="vm"></param>
+        </member>
+        <member name="M:APITeste.Controllers.LojaController.Delete(System.Int32)">
+            <summary>
+            Delete uma loja
+            </summary>
+            <remarks> Informe o id da loja que você quer apagar </remarks>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

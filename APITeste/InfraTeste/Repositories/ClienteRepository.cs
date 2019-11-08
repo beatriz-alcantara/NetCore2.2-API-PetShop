@@ -2,6 +2,8 @@
 using System.Data.SqlClient;
 using Dapper;
 using System.Collections.Generic;
+using System.Linq;
+using MySql.Data.MySqlClient;
 
 namespace InfraTeste.Repositories
 {
@@ -14,7 +16,7 @@ namespace InfraTeste.Repositories
         }
         public Cliente Post(Cliente vm)
         {
-            using (var db = new SqlConnection(con.MySQL))
+            using (var db = new MySqlConnection(con.MySQL))
             {
                 var sql = @"INSERT INTO clientes (nome, cpf) VALUES (@nome, @cpf);
                             SELECT LAST_INSERT_ID();";
@@ -25,13 +27,29 @@ namespace InfraTeste.Repositories
         public List<Cliente> Get(Cliente vm)
         {
             var lista = new List<Cliente>();
-            using (var db = new SqlConnection(con.MySQL))
+            using (var db = new MySqlConnection(con.MySQL))
             {
                 var sql = @"SELECT id, nome, cpf FROM clientes WHERE 
-                            (id = @id OR @id = 0) AND (nome = @nome or @nome is null) AND (cpf = @cpf OR @cpf is null);";
-                vm.id = db.ExecuteScalar<int>(sql, vm);
+                            (id = @id OR @id = 0) AND (UPPER(nome) LIKE UPPER(CONCAT('%', @nome, '%')) OR @nome IS NULL) AND (cpf = @cpf OR @cpf IS NULL);";
+                lista = db.Query<Cliente>(sql, vm).OrderBy(el => el.id).ToList();
             }
-            return vm;
+            return lista;
+        }
+        public void Put(Cliente vm)
+        {
+            using (var db = new MySqlConnection(con.MySQL))
+            {
+                var sql = @"UPDATE clientes SET nome = @nome, cpf = @cpf WHERE id = @id";
+                db.Execute(sql, vm);
+            }
+        }
+        public void Delete(int id)
+        {
+            using (var db = new MySqlConnection(con.MySQL))
+            {
+                var sql = @"DELETE FROM clientes WHERE id = @id";
+                db.Execute(sql, new { id });
+            }
         }
     }
 }

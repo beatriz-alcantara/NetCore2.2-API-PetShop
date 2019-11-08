@@ -12,3 +12,7 @@ C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debu
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorTargetAssemblyInfo.cache
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.dll
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.pdb
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\InfraTeste.dll
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\InfraTeste.pdb
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.csproj.CopyComplete
+C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.xml
