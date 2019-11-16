@@ -23,21 +23,21 @@ namespace APITeste.Controllers
         /// <remarks> Informe um dos dados do cliente que você quer buscar </remarks>
         /// <returns></returns>
         [HttpGet]
-        public ActionResult<List<Cliente>> Get([FromQuery]Cliente vm)
+        public ActionResult<List<Clientes>> Get([FromQuery]Clientes vm)
         {
             return Repo.Get(vm);
         }
 
         // POST api/values7
         [HttpPost]
-        public ActionResult<Cliente> Post([FromBody] Cliente vm)
+        public ActionResult<Clientes> Post([FromBody] Clientes vm)
         {
             return Repo.Post(vm);
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put([FromBody] Cliente vm)
+        public void Put([FromBody] Clientes vm)
         {
             Repo.Put(vm);
         }

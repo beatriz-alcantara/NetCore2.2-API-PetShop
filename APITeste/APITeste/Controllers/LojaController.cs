@@ -23,7 +23,7 @@ namespace APITeste.Controllers
         /// <remarks> Informe um dos dados do Loja que você quer buscar </remarks>
         /// <returns></returns>
         [HttpGet]
-        public ActionResult<List<Loja>> Get([FromQuery]Loja vm)
+        public ActionResult<List<Lojas>> Get([FromQuery]Lojas vm)
         {
             return Repo.Get(vm);
         }
@@ -35,7 +35,7 @@ namespace APITeste.Controllers
         /// <param name="vm"></param>
         /// <returns></returns>
         [HttpPost]
-        public ActionResult<Loja> Post([FromBody] Loja vm)
+        public ActionResult<Lojas> Post([FromBody] Lojas vm)
         {
             return Repo.Post(vm);
         }
@@ -46,7 +46,7 @@ namespace APITeste.Controllers
         /// <remarks> Digite o nome e o id que você quer atualizar </remarks>
         /// <param name="vm"></param>
         [HttpPut("{id}")]
-        public void Put([FromBody] Loja vm)
+        public void Put([FromBody] Lojas vm)
         {
             Repo.Put(vm);
         }

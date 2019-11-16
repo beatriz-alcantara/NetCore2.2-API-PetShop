@@ -45,7 +45,6 @@ namespace APITeste
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
                 var filePath = Path.Combine(PlatformServices.Default.Application.ApplicationBasePath, "APITeste.xml");
                 c.IncludeXmlComments(filePath);
-                c.OperationFilter<ExamplesOperationFilter>();
             });
         }
 

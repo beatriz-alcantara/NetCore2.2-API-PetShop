@@ -16,3 +16,23 @@ C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debu
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\InfraTeste.pdb
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.csproj.CopyComplete
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.xml
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.csprojAssemblyReference.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorAssemblyInfo.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorAssemblyInfo.cs
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.AssemblyInfoInputs.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.AssemblyInfo.cs
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.pdb
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\appsettings.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.xml
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.deps.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.runtimeconfig.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.runtimeconfig.dev.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\APITeste.pdb
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\InfraTeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\bin\Debug\netcoreapp2.2\InfraTeste.pdb
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.RazorTargetAssemblyInfo.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\APITeste\obj\Debug\netcoreapp2.2\APITeste.csproj.CopyComplete

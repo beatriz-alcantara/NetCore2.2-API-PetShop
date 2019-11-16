@@ -17,33 +17,35 @@ namespace InfraTeste.Repositories
             con = c;
         }
 
-        public List<Loja> Get(Loja loja)
+        public List<Lojas> Get(Lojas loja)
         {
-            List<Loja> ListaLoja = new List<Loja>();
+            List<Lojas> ListaLoja = new List<Lojas>();
             using(var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"SELECT id, nome FROM lojas WHERE (id = @id OR @id = 0) AND (UPPER(nome) LIKE UPPER(CONCAT('%', @nome, '%' )) OR @nome IS NULL);";
-                ListaLoja = db.Query<Loja>(sql, loja).ToList();
+                var sql = @"SELECT id, nome, isAtivo FROM lojas WHERE (id = @id OR @id = 0) 
+                            AND (UPPER(nome) LIKE UPPER(CONCAT('%', @nome, '%' )) OR @nome IS NULL)
+                            AND isAtivo = @isAtivo;";
+                ListaLoja = db.Query<Lojas>(sql, loja).ToList();
             }
             return ListaLoja;
         }
 
-        public Loja Post(Loja loja)
+        public Lojas Post(Lojas loja)
         {
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"INSERT INTO lojas(nome) VALUES (@nome);
+                var sql = @"INSERT INTO lojas(nome, isAtivo) VALUES (@nome, @isAtivo);
                             SELECT LAST_INSERT_ID();";
                 loja.id = db.ExecuteScalar<int>(sql, loja);
             }
             return loja;
         }
 
-        public void Put(Loja loja)
+        public void Put(Lojas loja)
         {
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"UPDATE lojas SET nome = @nome WHERE id = @id;";
+                var sql = @"UPDATE lojas SET nome = @nome, isAtivo = @isAtivo WHERE id = @id;";
                 db.Execute(sql, loja);
             }
         }
@@ -52,7 +54,7 @@ namespace InfraTeste.Repositories
         {
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"DELETE FROM lojas WHERE id = @id;";
+                var sql = @"UPDATE lojas SET isAtivo = 0 WHERE id = @id;";
                 db.Execute(sql, new { id });
             }
         }

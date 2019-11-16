@@ -1,0 +1,7 @@
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\bin\Debug\netcoreapp3.0\InfraTeste.deps.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\bin\Debug\netcoreapp3.0\InfraTeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\bin\Debug\netcoreapp3.0\InfraTeste.pdb
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp3.0\InfraTeste.AssemblyInfoInputs.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp3.0\InfraTeste.AssemblyInfo.cs
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp3.0\InfraTeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp3.0\InfraTeste.pdb

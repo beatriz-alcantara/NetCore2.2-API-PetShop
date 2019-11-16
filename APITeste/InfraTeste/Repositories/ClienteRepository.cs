@@ -14,32 +14,35 @@ namespace InfraTeste.Repositories
         {
             con = c;
         }
-        public Cliente Post(Cliente vm)
+        public Clientes Post(Clientes vm)
         {
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"INSERT INTO clientes (nome, cpf) VALUES (@nome, @cpf);
+                var sql = @"INSERT INTO clientes (nome, cpf, isAtivo) VALUES (@nome, @cpf, 1);
                             SELECT LAST_INSERT_ID();";
                 vm.id = db.ExecuteScalar<int>(sql, vm);
             }
             return vm;
         }
-        public List<Cliente> Get(Cliente vm)
+        public List<Clientes> Get(Clientes vm)
         {
-            var lista = new List<Cliente>();
+            var lista = new List<Clientes>();
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"SELECT id, nome, cpf FROM clientes WHERE 
-                            (id = @id OR @id = 0) AND (UPPER(nome) LIKE UPPER(CONCAT('%', @nome, '%')) OR @nome IS NULL) AND (cpf = @cpf OR @cpf IS NULL);";
-                lista = db.Query<Cliente>(sql, vm).OrderBy(el => el.id).ToList();
+                var sql = @"SELECT id, nome, cpf, isAtivo FROM clientes WHERE 
+                            (id = @id OR @id = 0) 
+                             AND (UPPER(nome) LIKE UPPER(CONCAT('%', @nome, '%')) OR @nome IS NULL) 
+                             AND (cpf = @cpf OR @cpf IS NULL)
+                             AND isAtivo = @isAtivo;";
+                lista = db.Query<Clientes>(sql, vm).OrderBy(el => el.id).ToList();
             }
             return lista;
         }
-        public void Put(Cliente vm)
+        public void Put(Clientes vm)
         {
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"UPDATE clientes SET nome = @nome, cpf = @cpf WHERE id = @id";
+                var sql = @"UPDATE clientes SET nome = @nome, cpf = @cpf, isAtivo = @isAtivo WHERE id = @id";
                 db.Execute(sql, vm);
             }
         }
@@ -47,7 +50,7 @@ namespace InfraTeste.Repositories
         {
             using (var db = new MySqlConnection(con.MySQL))
             {
-                var sql = @"DELETE FROM clientes WHERE id = @id";
+                var sql = @"UPDATE clientes SET isAtivo = 0 WHERE id = @id";
                 db.Execute(sql, new { id });
             }
         }

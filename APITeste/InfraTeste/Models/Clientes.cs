@@ -2,7 +2,7 @@
 
 namespace InfraTeste.Models
 {
-    public class Cliente
+    public class Clientes
     {
         /// <summary>
         /// Id do cliente
@@ -18,5 +18,9 @@ namespace InfraTeste.Models
         /// Cpf do cliente
         /// </summary>
         public string cpf { get; set; }
+        /// <summary>
+        /// Situação do cliente
+        /// </summary>
+        public bool isAtivo { get; set; }
     }
 }

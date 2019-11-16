@@ -4,21 +4,43 @@
         <name>APITeste</name>
     </assembly>
     <members>
-        <member name="M:APITeste.Controllers.ClienteController.Get(InfraTeste.Models.Cliente)">
+        <member name="M:APITeste.Controllers.ClienteController.Get(InfraTeste.Models.Clientes)">
             <summary>
              Listar Clientes
             </summary>
             <remarks> Informe um dos dados do cliente que você quer buscar </remarks>
             <returns></returns>
         </member>
-        <member name="M:APITeste.Controllers.LojaController.Get(InfraTeste.Models.Loja)">
+        <member name="M:APITeste.Controllers.LojaClienteController.Get(InfraTeste.Models.LojasClientes)">
+            <summary>
+             Listar Relacionamentos de clientes com loja
+            </summary>
+            <remarks> Busque por uma relação </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.LojaClienteController.Post(InfraTeste.Models.LojasClientes)">
+            <summary>
+             Cadastrar relação de Loja com Cliente
+            </summary>
+            <remarks> Informe o id do cliente e o da loja a serem relacionados </remarks>
+            <param name="vm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.LojaClienteController.Delete(System.Int32)">
+            <summary>
+            Delete uma Relação de loja com cliente
+            </summary>
+            <remarks> Informe o id da relação que você quer apagar </remarks>
+            <param name="id"></param>
+        </member>
+        <member name="M:APITeste.Controllers.LojaController.Get(InfraTeste.Models.Lojas)">
             <summary>
              Listar Lojas
             </summary>
             <remarks> Informe um dos dados do Loja que você quer buscar </remarks>
             <returns></returns>
         </member>
-        <member name="M:APITeste.Controllers.LojaController.Post(InfraTeste.Models.Loja)">
+        <member name="M:APITeste.Controllers.LojaController.Post(InfraTeste.Models.Lojas)">
             <summary>
              Cadastrar Loja
             </summary>
@@ -26,7 +48,7 @@
             <param name="vm"></param>
             <returns></returns>
         </member>
-        <member name="M:APITeste.Controllers.LojaController.Put(InfraTeste.Models.Loja)">
+        <member name="M:APITeste.Controllers.LojaController.Put(InfraTeste.Models.Lojas)">
             <summary>
             Atualize uma Loja
             </summary>
@@ -38,6 +60,35 @@
             Delete uma loja
             </summary>
             <remarks> Informe o id da loja que você quer apagar </remarks>
+            <param name="id"></param>
+        </member>
+        <member name="M:APITeste.Controllers.PetController.Get(InfraTeste.Models.Pets)">
+            <summary>
+             Listar Pets
+            </summary>
+            <remarks> Busque um pet </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.PetController.Post(InfraTeste.Models.Pets)">
+            <summary>
+             Cadastrar Pet
+            </summary>
+            <remarks> Informe o nome do pet que você quer cadastrar </remarks>
+            <param name="vm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APITeste.Controllers.PetController.Put(InfraTeste.Models.Pets)">
+            <summary>
+            Atualize um Pet
+            </summary>
+            <remarks> Informe e os dados que você quer atualizar </remarks>
+            <param name="vm"></param>
+        </member>
+        <member name="M:APITeste.Controllers.PetController.Delete(System.Int32)">
+            <summary>
+            Delete um pet
+            </summary>
+            <remarks> Informe o id do pet que você quer apagar </remarks>
             <param name="id"></param>
         </member>
     </members>

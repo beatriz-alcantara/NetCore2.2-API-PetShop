@@ -10,3 +10,11 @@ C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\bin\De
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.csproj.CopyComplete
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.dll
 C:\Users\beatriz.alcantara\Documents\Projetos NetCore\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.pdb
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\bin\Debug\netcoreapp2.2\InfraTeste.deps.json
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\bin\Debug\netcoreapp2.2\InfraTeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\bin\Debug\netcoreapp2.2\InfraTeste.pdb
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.csprojAssemblyReference.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.AssemblyInfoInputs.cache
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.AssemblyInfo.cs
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.dll
+C:\D\Programacao\C#\NetCore2.2-API-PetShop\APITeste\InfraTeste\obj\Debug\netcoreapp2.2\InfraTeste.pdb
